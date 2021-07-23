@@ -29,7 +29,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 					Cbalance(tree, value);
 				return (node);
 			}
-	}
+		}
 		else
 		{
 			if ((*tree)->right == NULL)
@@ -46,6 +46,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 			}
 		}
 	}
+	return (NULL);
 }
 
 /**
