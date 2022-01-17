@@ -1,1 +1,2 @@
-# binary trees
+# Binary Trees
+Tree Data Structure
